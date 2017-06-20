@@ -24,7 +24,7 @@ let lastArray = [
 for (index, element) in lastArray.enumerated() {
     
     for word in array[index % 2] { print(word) }
-    print(lastArray[index] + "\n")
-    
+    print(element + "\n")
+
 }
 
